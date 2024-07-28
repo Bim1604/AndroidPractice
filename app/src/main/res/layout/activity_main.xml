@@ -3,17 +3,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     android:background="#FFFFFF"
     >
 
     <TextView
-        android:id="@+id/myTextView"
+        android:id="@+id/txtResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="50sp"
+        android:textSize="25sp"
         android:text="Hello Android"
         android:textColor="#000000"
         android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
         />
 
 </LinearLayout>
